@@ -60,6 +60,6 @@ jobs:
       - name: Upload images
         uses: actions/upload-artifact@v3
         with:
-          path: piscsi-hw/zulu-ctrl-board-v1.0-kicad/zulu-ctrl-board-v1.0-kicad/images/*
+          path: piscsi-hw/zulu-ctrl-board-v1.0-kicad/images/*
           name: Images of the PCB
 
